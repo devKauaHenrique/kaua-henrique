@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+.icons a:hover{
+    transform: translateY(-4px);
+    transition: all 0.8s;
+}
+
+.fundo-projetos{
+    transition: transform 0.25s;
+}
+
+.fundo-projetos:hover{
+    transform: scale(1.04);
+}
